@@ -1,0 +1,13 @@
+1: This example uses an application protocol that implements a basic search feature. 
+    The client sends a search request and the server does a lookup for a match. If the request sent by 
+    the client isn¡¯t recognized as a search, the server assumes it¡¯s a binary request and returns a 
+    binary response.
+
+
+2: The server¡¯s Message class works in essentially the same way as the client¡¯s and vice-versa. 
+    The difference is that the client initiates the connection and sends a request message, followed by
+    processing the server¡¯s response message. Conversely, the server waits for a connection, processes 
+    the client¡¯s request message, and then sends a response message.
+
+
+3: 
