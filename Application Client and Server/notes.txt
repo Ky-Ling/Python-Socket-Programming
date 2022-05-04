@@ -9,5 +9,8 @@
     processing the server¡¯s response message. Conversely, the server waits for a connection, processes 
     the client¡¯s request message, and then sends a response message.
 
+    Client	Sends a Message containing request content
+    Server	Receives and processes client request Message
+	Server	Sends a Message containing response content
+    Client	Receives and processes server response Message
 
-3: 
